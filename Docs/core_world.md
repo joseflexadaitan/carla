@@ -201,7 +201,7 @@ lmanager.set_intensities(my_lights,list_of_intensities)
 * __Vehicle lights__ have to be turned on/off by the user. Each vehicle has a set of lights listed in [__carla.VehicleLightState__](python_api.md#carla.VehicleLightState). So far, not all vehicles have lights integrated. Here is a list of those that are available by the time of writing.  
 	*   __Bikes.__ All of them have a front and back position light.  
 	*   __Motorcycles.__ Yamaha and Harley Davidson models.  
-	*   __Cars.__ Audi TT, Chevrolet, Dodge (the police car), Etron, Lincoln, Mustang, Tesla 3S, Wolkswagen T2 and the new guests coming to CARLA.  
+	*   __Cars.__ Audi TT, Chevrolet, Dodge (the police car), Etron, Lincoln, Mustang, Tesla 3S, Volkswagen T2 and the new guests coming to CARLA.  
 
 The lights of a vehicle can be retrieved and updated anytime using the methods [carla.Vehicle.get_light_state](python_api.md#carla.Vehicle.get_light_state) and [carla.Vehicle.set_light_state](#python_api.md#carla.Vehicle.set_light_state). These use binary operations to customize the light setting.  
 
